@@ -3,6 +3,8 @@ A focused web crawler aimed at https://stores.nordstromrack.com that will extrac
 
 This focused web crawler is designed to crawl through the https://stores.nordstromrack.com website, extracting location and attribute data for all Nordstrom Rack stores. The crawler was developed with reproducibility in mind and can be periodically run to crawl the website for new or updated store listings.
 
+Code filepath: nordstrom_crawler/spiders/nordstrom_storelocation_crawler.py
+
 The web crawler will extract the following data for all Nordstrom Rack stores:
 
 Store name,  Address,  City,  State/Territory,  Postal code,  Country,  Phone number,  Latitude,  Longitude,  Hours of operation
